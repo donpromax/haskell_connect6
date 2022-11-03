@@ -23,7 +23,7 @@
 六子棋AI的关键函数都在/AI 目录下。/Records 目录主要是棋谱数据库的定义和格式转换。/Boards主要是棋盘UI的设计
 
 # 算法流程图
-<div align=center><img src="http://10.134.143.51/donlv/HW2_Gobang/raw/master/imgs/HW2_flow.png"/></div>
+<div align=center><img src="imgs/HW2_flow.png"/></div>
 
 # Checkerboard
 
@@ -57,10 +57,10 @@ win :: Board -> Int
 ```
 
 ## win调用结果:
-<div align=center><img src="http://10.134.143.51/donlv/HW2_Gobang/raw/master/imgs/win.png"/></div>
+<div align=center><img src="imgs/win.png"/></div>
 
 ## printBoard调用结果(5*5 board):
-<div align=center><img height = "500" src="http://10.134.143.51/donlv/HW2_Gobang/raw/master/imgs/printBoard_5times5.png"/></div>
+<div align=center><img height = "500" src="imgs/printBoard_5times5.png"/></div>
 
 # CsvParser
 ```haskell
@@ -84,7 +84,7 @@ timeover :: String -> String -> Bool
 ```
 
 ## csv解析器与timeover使用样例：
-<div align=center><img src="http://10.134.143.51/donlv/HW2_Gobang/raw/master/imgs/timeover.png"/></div>
+<div align=center><img src="imgs/timeover.png"/></div>
 
 # Utils
 矩阵相关辅助函数
