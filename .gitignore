@@ -1,0 +1,9 @@
+*.hsplay
+*.cabal
+*.yaml
+dist/
+Setup.hs
+*.o
+*.hi
+*.csv
+
